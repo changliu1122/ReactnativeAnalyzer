@@ -1,0 +1,15 @@
+1. create a folder
+2. create a .py file
+3. inside this folder, create virtual environments, because we might need different pakagaes
+    and different version of same pakagaes in different projects
+    command line : python3 -m venv env
+4. activate this environment 
+    source env/bin/activate
+5.list all installed dependencies
+    pip3 list
+6.write down all dependencies in a file
+    pip3 freeze > requirements.txt
+7. other people can install required dependencies of this project 
+    pip3 install -r requirements.txt
+8. If we want to remove all at once then
+    pip3 uninstall -r requirements.txt -y
